@@ -81,8 +81,6 @@ Cette section décrit les étapes générales pour compiler, synthétiser et int
 
 - Ajouter des **pragmas HLS** dans le code :
   - `#pragma HLS PIPELINE`
-  - `#pragma HLS UNROLL`
-  - `#pragma HLS ARRAY_PARTITION`
 - Objectif :
   - réduire le nombre de cycles,
   - augmenter le parallélisme interne,
